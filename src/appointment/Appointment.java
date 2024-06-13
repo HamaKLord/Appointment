@@ -68,7 +68,10 @@ public class Appointment {
 }
 
 
-class MainApp extends JFrame {
+
+
+
+ class MainApp extends JFrame {
     private CardLayout cardLayout;
     private JPanel mainPanel;
     private List<Doctor> doctorList;
@@ -357,7 +360,7 @@ class MainApp extends JFrame {
         gbc.insets = new Insets(10, 10, 10, 10);
         gbc.fill = GridBagConstraints.HORIZONTAL;
 
-        JLabel paymentLabel = new JLabel("Payment Amount for each virtual meeting: $10");
+        JLabel paymentLabel = new JLabel("Payment Amount: $10");
         gbc.gridx = 0;
         gbc.gridy = 0;
         paymentTypePanel.add(paymentLabel, gbc);
