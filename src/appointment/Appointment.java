@@ -360,7 +360,7 @@ public class Appointment {
         gbc.insets = new Insets(10, 10, 10, 10);
         gbc.fill = GridBagConstraints.HORIZONTAL;
 
-        JLabel paymentLabel = new JLabel("Payment Amount: $10");
+        JLabel paymentLabel = new JLabel("Payment Amount For Each Virtual Meeting : $10");
         gbc.gridx = 0;
         gbc.gridy = 0;
         paymentTypePanel.add(paymentLabel, gbc);
